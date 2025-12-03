@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "node scripts/copyIndexTo404.js && npm run build",
+    "predeploy": "npm run build && node scripts/copyIndexTo404.js",
   "deploy": "gh-pages -d dist"
   },
   "dependencies": {
