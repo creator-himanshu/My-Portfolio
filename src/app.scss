@@ -1,0 +1,19 @@
+// @import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.cus-container {
+    max-width: 1654px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    @media (max-width: 1920px) and (min-width: 992px) {
+        max-width: 86.146vw;
+        padding: 0 0.781vw;
+    }
+}

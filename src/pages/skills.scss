@@ -1,0 +1,94 @@
+.skills {
+    background-color: #000;
+
+    .skills-banner {
+        height: calc(100vh - 143px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-size: 100px;
+            color: #fff;
+            text-align: center;
+
+            @media (max-width: 1920px) and (min-width: 992px) {
+                font-size: 5.208vw;
+            }
+        }
+    }
+
+    .technologies {
+        padding-bottom: 80px;
+
+        @media (max-width: 1920px) and (min-width: 992px) {
+            padding-bottom: 4.167vw;
+        }
+
+        .technologies-wrap {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+
+            @media (max-width: 1920px) and (min-width: 992px) {
+                gap: 1.042vw;
+            }
+
+            .box {
+                padding: 50px 40px;
+                background-color: #1E1E1E;
+                border-radius: 22px;
+
+                @media (max-width: 1920px) and (min-width: 992px) {
+                    padding: 2.604vw 2.083vw;
+                    border-radius: 1.146vw;
+                }
+
+                .skillset {
+                    display: flex;
+                    gap: 10px;
+
+                    @media (max-width: 1920px) and (min-width: 992px) {
+                        gap: 0.521vw;
+                    }
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+                h4 {
+                    margin-top: 20px;
+                    font-family: 'DM Sans';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 28px;
+                    line-height: 36px;
+                    color: #FFFFFF;
+                    margin-bottom: 10px;
+
+                    @media (max-width: 1920px) and (min-width: 992px) {
+                        margin-top: 1.042vw;
+                        font-size: 1.458vw;
+                        line-height: 1.875vw;
+                        margin-bottom: 0.521vw;
+                    }
+                }
+
+                p {
+                    font-family: 'DM Sans';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 26px;
+                    color: #AAAAAA;
+
+                    @media (max-width: 1920px) and (min-width: 992px) {
+                        font-size: 1.042vw;
+                        line-height: 1.354vw;
+                    }
+                }
+            }
+        }
+    }
+}

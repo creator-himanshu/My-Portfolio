@@ -1,0 +1,43 @@
+.header {
+    padding: 37px 0 0;
+
+    @media (max-width: 1920px) and (min-width: 992px) {
+        padding: 1.927vw 0 0;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 500;
+
+        @media (max-width: 1920px) and (min-width: 992px) {
+            font-size: 1.042vw;
+        }
+
+        @media (max-width: 767px) {
+            font-size: 15px;
+        }
+    }
+
+    .para-content {
+        max-width: 600px;
+
+        @media (max-width: 1920px) and (min-width: 992px) {
+            max-width: 31.25vw;
+        }
+
+        p {
+            font-size: 20px;
+            color: #fff;
+            text-align: right;
+
+            @media (max-width: 1920px) and (min-width: 992px) {
+                font-size: 1.042vw;
+            }
+
+            @media (max-width: 767px) {
+                font-size: 15px;
+            }
+        }
+    }
+}
