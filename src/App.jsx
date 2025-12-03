@@ -4,18 +4,18 @@ import Skills from './pages/Skills'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './app.scss'
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
