@@ -1,16 +1,70 @@
-# React + Vite
+🚀 Himanshu Mehta – Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!
+This project showcases my skills, projects, and experience as a Frontend Developer, built with modern web technologies and a focus on clean UI, performance, and responsiveness.
 
-Currently, two official plugins are available:
+🌐 Live Demo:
+👉 https://creator-himanshu.github.io/My-Portfolio/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
 
-## React Compiler
+⚡ Built with React + Vite for fast performance
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🎨 Modern, clean, and responsive UI
 
-## Expanding the ESLint configuration
+📱 Fully responsive across devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧩 Reusable components & scalable structure
+
+🚀 Deployed on GitHub Pages
+
+🛠️ Optimized production build
+
+🛠️ Tech Stack
+
+Frontend: React, JavaScript (ES6+)
+
+Styling: CSS / SCSS
+
+Build Tool: Vite
+
+Version Control: Git & GitHub
+
+Deployment: GitHub Pages
+
+
+📂 Project Structure
+My-Portfolio/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+
+
+
+👨‍💻 About Me
+
+I’m Himanshu Mehta, a passionate Frontend Developer who enjoys converting designs into functional, responsive, and production-ready web applications.
+
+💻 HTML, CSS, JavaScript
+
+⚛️ React, Redux, Next.js
+
+🎨 UI-focused & performance-driven
+
+📫 Connect with me:
+
+GitHub: https://github.com/creator-himanshu
+
+Portfolio: https://creator-himanshu.github.io/My-Portfolio/
+
+⭐ Feedback & Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+Feedback and suggestions are always welcome!
