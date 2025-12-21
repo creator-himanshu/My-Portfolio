@@ -6,7 +6,7 @@ function CusHeader() {
     <>
         <header className='header'>
             <div className='cus-container'>
-                <div className='d-flex justify-content-between'>
+                <div className='box'>
                     <h2>@Code By Himanshu</h2>
                     <div className='para-content'>
                         <p>Developer who brings design to life <br /> converting Figma concepts into functional, responsive, <br /> and production-ready web applications.</p>

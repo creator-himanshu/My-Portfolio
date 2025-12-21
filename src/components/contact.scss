@@ -5,6 +5,10 @@
         padding-bottom: 3.906vw;
     }
 
+    @media (max-width: 575px) {
+        padding-bottom: 40px;
+    }
+
     &.dark {
         background-color: #000;
 
@@ -44,6 +48,11 @@
                 font-size: 45px;
                 line-height: 70px;
             }
+
+            @media (max-width: 575px) {
+                font-size: 35px;
+                line-height: 50px;
+            }
         }
 
         h5 {
@@ -65,6 +74,10 @@
         @media (max-width: 1920px) and (min-width: 992px) {
             margin: 3.125vw 0;
         }
+
+        @media (max-width: 767px) {
+            margin: 30px 0;
+        }
     }
 
     .contact-me-wrap {
@@ -74,6 +87,11 @@
 
         @media (max-width: 1920px) and (min-width: 992px) {
             margin: 1.563vw 0 0;
+        }
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+            gap: 25px;
         }
 
         .contact-detail {
@@ -86,6 +104,15 @@
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 20px;
+            }
+
+            @media (max-width: 830px) {
+                width: 70%;
+            }
+
+            @media (max-width: 767px) {
+                width: 100%;
+                gap: 15px;
             }
 
             span {
@@ -109,6 +136,10 @@
                 @media (max-width: 991px) {
                     font-size: 20px;
                 }
+
+                @media (max-width: 575px) {
+                    font-size: 18px;
+                }
             }
         }
 
@@ -126,6 +157,10 @@
 
                 @media (max-width: 1920px) and (min-width: 992px) {
                     font-size: 2.083vw;
+                }
+
+                @media (max-width: 575px) {
+                    font-size: 25px;
                 }
             }
         }

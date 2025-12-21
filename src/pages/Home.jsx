@@ -1,6 +1,4 @@
 import React from 'react'
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 import Marquee from 'react-fast-marquee';
 import CusHeader from '../components/CusHeader';
 import { Link } from 'react-router-dom';
@@ -15,13 +13,14 @@ import projectImg3 from '../assets/img/project-3.png';
 import projectImg4 from '../assets/img/project-4.png';
 
 import './home.scss'
+import Menu from '../components/Menu';
 
 
 function Home() {
      
   return (
     <>
-        <section className='main'>
+        <section className='main position-relative'>
             <CusHeader />
             <div className='main-wrap'>
                 <div className="text-animate">
@@ -32,6 +31,7 @@ function Home() {
                     </Marquee>
                 </div>
             </div>
+            <Menu />
         </section>
         <section className='about-me'>
             <div className='cus-container'>
@@ -39,13 +39,12 @@ function Home() {
                     <h4>Powered by a passion for code and visuals, I create fast, intuitive, and engaging web interfaces. As a frontend developer in learning, I’m always experimenting, improving, and expanding my skill-set to deliver better user experiences.</h4>
                     <div className='box'>
                         <p>My passion for building intuitive interfaces, crafting accessible UI, and delivering seamless user experiences places me at the core of modern frontend development.</p>
-                        {/* <a>My Skills <FaArrowRight /></a> */}
                         <Link to="/skills">My Skills <GoArrowRight /></Link>
                     </div>
                 </div>
             </div>
         </section>
-        <section className='project'>
+        <section className='project' id='project'>
             <div className='cus-container'>
                 <div className='section-title'>
                     <h2>My Craft</h2>

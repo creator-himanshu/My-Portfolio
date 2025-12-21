@@ -29,13 +29,14 @@ import gitImg1 from '../assets/img/icons/git-img-1.png';
 import gitImg2 from '../assets/img/icons/git-img-2.png';
 
 import './skills.scss'
+import Menu from '../components/Menu';
 
 function Skills() {
 
   const frontendImages = [
     frontendImg1,
     frontendImg2,
-    frontendImg3,
+    // frontendImg3,
     frontendImg4,
     frontendImg5,
     frontendImg6
@@ -48,15 +49,15 @@ function Skills() {
     styleImg4
   ];
 
-  const backendImages = [
-    backendImg1,
-    backendImg2,
-    backendImg3
-  ];
+  // const backendImages = [
+  //   backendImg1,
+  //   backendImg2,
+  //   backendImg3
+  // ];
   
   const databaseImages = [
     databaseImg1,
-    databaseImg2
+    // databaseImg2
   ];
 
   const gitImages = [
@@ -67,8 +68,9 @@ function Skills() {
     <>
     <section className='skills'>
         <CusHeader />
-        <section className='skills-banner'>
+        <section className='skills-banner position-relative'>
             <h2>The tools behind my ability to<br /> create, animate, and innovate.</h2>
+            <Menu />
         </section>
         <section className='technologies'>
           <div className='cus-container'>
@@ -91,7 +93,7 @@ function Skills() {
                 <h4>Styling & Design</h4>
                 <p>Crafting visually appealing and responsive designs with advanced styling tools and frameworks.</p>
               </div>
-              <div className='box'>
+              {/* <div className='box'>
                 <div className='skillset'>
                   {backendImages.map((img, index) => (
                     <img key={index} src={img} alt={`skill-${index}`} />
@@ -99,7 +101,7 @@ function Skills() {
                 </div>
                 <h4>Back-End Development</h4>
                 <p>Developing robust server-side logic and APIs to power dynamic and scalable web applications.</p>
-              </div>
+              </div> */}
 
               <div className='box'>
                 <div className='skillset'>

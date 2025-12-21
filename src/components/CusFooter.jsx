@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { HiArrowTurnUpRight } from 'react-icons/hi2'
 import './footer.scss'
 
-function CusFooter({ dark = true }) {   // ← boolean prop here
+function CusFooter({ dark = true }) {  
 
   const [showButton, setShowButton] = useState(false);
 

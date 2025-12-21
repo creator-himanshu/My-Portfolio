@@ -7,6 +7,14 @@
         justify-content: center;
         align-items: center;
 
+        @media (max-width: 1920px) and (min-width: 992px) {
+            height: calc(100vh - 7.448vw);
+        }
+
+        @media (max-width: 767px) {
+            height: 80vh;
+        }
+
         h2 {
             font-size: 100px;
             color: #fff;
@@ -14,6 +22,18 @@
 
             @media (max-width: 1920px) and (min-width: 992px) {
                 font-size: 5.208vw;
+            }
+
+            @media (max-width: 991px) {
+                font-size: 60px;
+            }
+
+            @media (max-width: 767px) {
+                font-size: 40px;
+            }
+
+            @media (max-width: 575px) {
+                font-size: 25px;
             }
         }
     }
@@ -34,6 +54,10 @@
                 gap: 1.042vw;
             }
 
+            @media (max-width: 991px) {
+                grid-template-columns: 1fr;
+            }
+
             .box {
                 padding: 50px 40px;
                 background-color: #1E1E1E;
@@ -44,6 +68,10 @@
                     border-radius: 1.146vw;
                 }
 
+                @media (max-width: 575px) {
+                    padding: 25px;
+                }
+
                 .skillset {
                     display: flex;
                     gap: 10px;
@@ -52,8 +80,21 @@
                         gap: 0.521vw;
                     }
 
+                    @media (max-width: 767px) {
+                        flex-wrap: wrap;
+                    }
+
                     img {
+                        max-width: 100px;
                         max-width: 100%;
+
+                        @media (max-width: 1920px) and (min-width: 992px) {
+                            max-width: 5.208vw;
+                        }
+
+                        @media (max-width: 767px) {
+                            max-width: 50px;
+                        }
                     }
                 }
 
@@ -73,6 +114,10 @@
                         line-height: 1.875vw;
                         margin-bottom: 0.521vw;
                     }
+
+                    @media (max-width: 575px) {
+                        font-size: 22px;
+                    }
                 }
 
                 p {
@@ -82,10 +127,15 @@
                     font-size: 20px;
                     line-height: 26px;
                     color: #AAAAAA;
+                    margin-bottom: 0;
 
                     @media (max-width: 1920px) and (min-width: 992px) {
                         font-size: 1.042vw;
                         line-height: 1.354vw;
+                    }
+
+                    @media (max-width: 575px) {
+                        font-size: 18px;
                     }
                 }
             }
