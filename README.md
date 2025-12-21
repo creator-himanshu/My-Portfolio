@@ -32,22 +32,6 @@ Version Control: Git & GitHub
 
 Deployment: GitHub Pages
 
-
-📂 Project Structure
-My-Portfolio/
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── assets/
-│   ├── styles/
-│   ├── App.jsx
-│   └── main.jsx
-├── package.json
-└── README.md
-
-
-
 👨‍💻 About Me
 
 I’m Himanshu Mehta, a passionate Frontend Developer who enjoys converting designs into functional, responsive, and production-ready web applications.
